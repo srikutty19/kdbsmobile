@@ -7,7 +7,7 @@
     <author email="remijeous@gmail.com" href="http://cordova.io">
     </author>
     <content src="index.html" />
-<<<<<<< HEAD
+
     <preference name="orientation" value="portrait" />
     <preference name="android-build-tool" value="gradle" />
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
@@ -28,8 +28,7 @@
         <param name="API_KEY_FOR_IOS" value="" />
         <param name="LOCATION_WHEN_IN_USE_DESCRIPTION" value="Karenderia wants to use your location" />
         <param name="LOCATION_ALWAYS_USAGE_DESCRIPTION" value="Karenderia want to always use your location" />
-=======
-               
+     
 	<preference name="orientation" value="portrait" />
 	<preference name="android-build-tool" value="gradle" />		
 		
@@ -60,7 +59,7 @@
     </gap:plugin>
     <gap:plugin name="cordova-plugin-buildinfo" source="npm" spec="1.1.0" />
     <gap:plugin name="cordova-plugin-googleplus" source="npm" spec="5.1.1">
-<<<<<<< HEAD
+
         <variable name="REVERSED_CLIENT_ID" value="465251440510-tbodg5k8139c1n1id260ug4jocdvf4l2.apps.googleusercontent.com" />
     </gap:plugin>
     <preference name="AutoHideSplashScreen" value="false" />
@@ -68,7 +67,7 @@
     <preference name="fullscreen" value="false" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="android-minSdkVersion" value="17" />
-=======
+
      <variable name="REVERSED_CLIENT_ID" value="" />
     </gap:plugin>
 		
@@ -80,10 +79,9 @@
     <preference name="ShowSplashScreenSpinner" value="false" />	   
         
     <preference name="android-minSdkVersion" value="19" />
->>>>>>> b623befe5fe3ae5c6822f9bceb1da7fef46b0ac4
+
     <preference name="android-targetSdkVersion" value="26" />
     <access origin="*" />
-<<<<<<< HEAD
     <access launch-external="yes" origin="tel:*" />
     <gap:config-file parent="/manifest" platform="android">
         <supports-screens android:largeScreens="true" android:smallScreens="true" android:xlargeScreens="true" />
@@ -91,7 +89,7 @@
         </application>
     </gap:config-file>
     <preference name="phonegap-version" value="cli-7.0.1" />
-=======
+
     <access origin="tel:*" launch-external="yes" />
        
     <gap:config-file platform="android" parent="/manifest">
@@ -101,7 +99,6 @@
     </gap:config-file> 
 	            
     <preference name="phonegap-version" value="cli-7.1.0" />     
->>>>>>> b623befe5fe3ae5c6822f9bceb1da7fef46b0ac4
     <gap:plugin name="cordova-plugin-camera" source="npm" spec="2.4.1" />
     <gap:plugin name="cordova-plugin-file-transfer" source="npm" spec="1.6.2" />
     <gap:plugin source="git" spec="https://github.com/danwilson/google-analytics-plugin.git" />
@@ -116,7 +113,7 @@
     <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
         <string>need camera access to take pictures</string>
     </edit-config>
-<<<<<<< HEAD
+
     <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
         <string>need to photo library access to get pictures from there</string>
     </edit-config>
@@ -188,7 +185,6 @@
     <engine name="android" spec="~7.0.0" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
-=======
     
 	<platform name="android">
 		
@@ -248,5 +244,5 @@
 		<splash height="480" platform="ios" src="res/screens/ios/Default~iphone.png" width="320" />
 	</platform>    
  	       
->>>>>>> b623befe5fe3ae5c6822f9bceb1da7fef46b0ac4
+
 </widget>
